@@ -1,0 +1,56 @@
+
+
+
+
+
+body {background-image:url(arka.jpg);
+}
+footer { position:relative; bottom: 0; width: 100%; height: 30px; background-color: gainsboro; }
+
+/* burası Footerı alta sabitliyor ve body e bir background veriyor.*/
+
+.ortala {
+    display: flex;            
+justify-content: center;            
+align-items: center;
+}
+/* Burası div'i ortalıyor. */
+p {
+    font-size:large; 
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Burada parafraflardaki yazıların boyu ve tipi belirleniyor. */
+.hakkımdaresim {
+    width:50%; height:500px; 
+}
+.girisresim {
+    width:70%; height:600px;
+}
+.özgecmisresim {
+    width:100%; height:250px;
+}
+/* Burası sayfadaki resimlere genişlik ve uzunluk veriyor. */
+.iletisimbaslik {
+    color:blueviolet;
+}
+.iletisimtablo {
+    width:56%;
+}
+/* Burası tablo genişliğini ayarlıyor. */
+.textengel {
+    resize:none;
+}
+/* Burası iletişim formundaki textareanın büyütülüp küçültülmesini engelliyor. */
+.ozgbaslik {
+    font-family: 'Times New Roman', Times, serif;
+       letter-spacing: 3px;
+       color:rgb(8, 8, 8);
+       text-align: center;
+
+}
+.ozgtablo {
+    width:48%;
+}
+.yazıort {
+    text-align:center;
+}

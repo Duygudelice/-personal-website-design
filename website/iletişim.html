@@ -1,0 +1,99 @@
+
+<html>
+<head>
+    <title> Kişisel Web Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+</head>
+ <!-- İletişim Formu -->
+ </head>
+ 
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="giris.html">Emel'in Kişisel Web Sitesi </a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="giris.html">ANASAYFA</a></li>
+            <li><a href="hakkında.html">HAKKIMDA</a></li>
+            <li><a href="iletişim.html">İLETİŞİM</a></li>
+            <li><a href="özgeçmiş.html">ÖZGEÇMİŞİM</a></li>
+            <li><a href="şehr.html">ŞEHRİM</a></li>
+            <li><a href="takim.html"> FUTBOL TAKIMIMIZ </a></li>
+           
+          </ul>
+        </div>
+      </nav>
+     
+   <!-- İletişim formu yer almaktadır Form elemanlarının düzenli görünmesi için tablo kullanılmıştır.Table border 0 verildiği için kenarlıklar görünmüyor. -->
+    <div class="ortala"><h1 class="iletisimbaslik">İLETİŞİM FORMU</h1></div>
+    <br>
+
+    <div class="ortala" >
+    
+       
+            <table class="iletisimtablo">
+              <form role="form">
+                <tr height="40"><td><label for="adisoyadi"> Ad-Soyad: <label></td> <td><input class="form-control" name="isimSoyisim" type="text" placeholder="Örn:Emel Soydan"  pattern="[A-Za-z]" autocomplete ="on" autofocus required /></td> <br/></tr>
+          <tr height="40"><td> <label for="email">E-Mail:  <label></td><td><input class="form-control" name="eposta" type="email" placeholder="Örn:aaa@gmail.com" autocomplete ="off" required/></td> <br/></tr>
+            <!-- required boş geçilmemesini sağlar,pattern alana girilecekl bilginin özelliklerini kısıtlar mesela sadece hrf içersin gibi,aoutocomplete otomatik doldurmayı açar veya engeller placeholder form alanında saydam yazı gözükmesini sağlar,autofocuys sayfa açıldığı anda oraya odaklar. -->
+          <tr height="40"><td><label for="cinsiyet"> Cinsiyet <label></td> 
+          <td> <input type="radio" name="cinsiyet" value="erkek" checked> Kadın<br> 
+            <input  type="radio" name="cinsiyet" value="kadin"> Erkek<br>
+            <input type="radio" name="cinsiyet" value="kadin"> Belirtmek İstemiyorum<br></td></tr>
+            
+           
+          
+            
+        
+            
+        
+           <tr height="60"><td>   <label for="gonderimsebep">Mesajı Gönderme Sebebiniz:  <label></td>
+           <td><select class="form-control" name="dersler" >
+            <option value="web">Diğer</option>
+            <option value="veri">Öneri</option>
+            <option value="grafik">Eleştri</option>
+            <option value="protem">Kişisel Sebepler</option>
+            </select></td></tr>
+           <tr height="40"><td><label for="dogumtarih" required> Doğum Tarihi: <label></td>
+           <td><input class="form-control" type="date">
+            <br></td></tr>
+           <tr height="60"><td><label for="telefon" > Telefon Numaranız: <label></td>
+
+     <td><input class="form-control" type="tel" placeholder="Örn:5552221133"  pattern="[0-9]{10}" autocomplete ="off" required></td></tr>
+     <tr height="40"><td> <label for="spordallari"> İlgilendiğiniz Spor Dalları: <label></td>
+     <td><input type="checkbox" name="Spor1" value="Futbol">
+            <label for="Futbol"> Futbol</label><br>
+            <input type="checkbox"  name="Spor2" value="Voleybol">
+            <label for="vVoleybol"> Voleybol</label><br>
+            <input type="checkbox" name="Spor3" value="Basketbol">
+            <label for="Basketbol"> Basketbol</label><br>
+            <input type="checkbox" name="Spor4" value="Tenis">
+            <label for="Tenis"> Tenis</label><br>
+            <input type="checkbox" name="Spor5" value="Buz Pateni">
+            <label for="Buz Pateni"> Buz Pateni</label><br></td></tr>
+     <tr height="40"><td><label for="mesaj"> Mesajınız:  <label></td>
+     <td>   <textarea class="form-control textengel"  rows="15" cols="65" maxlength="255" name="mesaj" autocomplete ="off" required></textarea> <br /></td></tr>
+     
+
+     <tr height="40"><td colspan="4">  <div class="ortala"><input class="btn btn-warning" type="submit" value="GÖNDER"/> &emsp; &emsp; &emsp;&emsp; <input class="btn btn-warning" type="reset" value="TEMİZLE"></div></td></tr>
+      
+      
+    </form>
+    </table>
+           
+    </div>
+<br>
+    <footer>
+        <div class="ortala"> <p>  @ 2022 Tüm Hakları saklıdır.Bu site Emel'e aittir. </p></div>
+      
+        </footer>
+</body>
+
+</html>
